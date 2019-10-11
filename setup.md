@@ -39,4 +39,29 @@ Install pyinvoke:
 
 In the terminal, run `pip install invoke --user`
 
+#activate/deactivate virtual enviornment
+Invoke looks for tasks.py file, within which venv is defined, creates venv folder locally
+```
+virtualenv?
+python3 -m venv
+echo $PATH
+ls -a
+open -a TextEdit .bash_profile
+*add in file export PATH="$HOME/.local/bin:$PATH"
+```
+```
+pwd
+mkdir MY_DIRECTORY_NAME?
+cd 
+git clone https://github.com/wri/gcom-ghg-inventory
+cd gcom-ghg-inventory
 
+virtualenv?
+invoke venv
+. activate_venv
+invoke test
+ls venv/bin
+echo $PATH
+invoke server
+deactivate
+```
