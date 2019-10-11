@@ -3,15 +3,15 @@ Steps/preparation:
 Install Python3:
 Download the "MacOS 64-bit Installer": https://www.python.org/downloads/release/python-374/
 Install the .pkg
-verify it is installed by opening the terminal and typing python3 --version
+verify it is installed by opening the terminal and typing `python3 --version`
  
 Install pip:
 
 Download the pip installer "get-pip.py" and save in your Home directory: https://bootstrap.pypa.io/
 
-Install pip using the terminal: runpython3 get-pip.py --user 
+Install pip using the terminal: run `python3 get-pip.py --user `
 
-Verify pip is installed: run pip --version (ensure the output mentions python 3.7, not python 2.x)
+Verify pip is installed: run `pip --version` (ensure the output mentions python 3.7, not python 2.x)
 
  
 
@@ -19,13 +19,13 @@ Verify pip is installed: run pip --version (ensure the output mentions python 3.
 
 Install git:
 
-First, verify git is not yet installed: run git --version if a version is printed you are fine, otherwise....
+First, verify git is not yet installed: `run git --version` if a version is printed you are fine, otherwise....
 
 Download the git installer - scroll down to the FAQs to see which version you need: https://sourceforge.net/projects/git-osx-installer/files/
 
 Install like a normal Mac application
 
-Verify it is installed: run git --version
+Verify it is installed: `run git --version`
 
  
 
@@ -37,4 +37,6 @@ Follow these instructions for Mac. Disregard the 'Homebrew/Macports' comments: h
 
 Install pyinvoke:
 
-In the terminal, run pip install invoke --user
+In the terminal, run `pip install invoke --user`
+
+
