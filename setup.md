@@ -19,13 +19,13 @@ Verify pip is installed: run `pip --version` (ensure the output mentions python 
 
 Install git:
 
-First, verify git is not yet installed: `run git --version` if a version is printed you are fine, otherwise....
+First, verify git is not yet installed: run `git --version` if a version is printed you are fine, otherwise....
 
 Download the git installer - scroll down to the FAQs to see which version you need: https://sourceforge.net/projects/git-osx-installer/files/
 
 Install like a normal Mac application
 
-Verify it is installed: `run git --version`
+Verify it is installed: run `git --version`
 
  
 
@@ -33,7 +33,9 @@ Install git-lfs:
 
 Follow these instructions for Mac. Disregard the 'Homebrew/Macports' comments: https://help.github.com/en/articles/installing-git-large-file-storage
 
- 
+Install virtualenv:
+
+In the terminal, run `pip install virtualenv --user` 
 
 Install pyinvoke:
 
@@ -51,12 +53,12 @@ open -a TextEdit .bash_profile
 ```
 ```
 pwd
-mkdir MY_DIRECTORY_NAME?
+mkdir MY_DIRECTORY_NAME
 cd 
 git clone https://github.com/wri/gcom-ghg-inventory
 cd gcom-ghg-inventory
 
-virtualenv?
+
 invoke venv
 . activate_venv
 invoke test
